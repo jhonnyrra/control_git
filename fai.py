@@ -26,7 +26,7 @@ stream = p.open(format = p.get_format_from_width(f.getsampwidth()),
 #read data  
 img = np.zeros([512, 512, 3], np.uint8)
 data = f.readframes(chunk)  
-
+# estoo es una prueba de git hub y todo eso
 
 
 def get_rms( block ):
